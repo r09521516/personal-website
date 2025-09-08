@@ -10,9 +10,6 @@
   font-style: normal;
 }
 
-/* :root {
-} */
-
 html, body {
   margin: 0;
   padding: 0;
@@ -101,7 +98,6 @@ video {
   padding: 0;
   width: 14vw;
   height: 15vw;
-  /* 依照頁面長寬比例調整最小長寬 */
   position: relative;
   top: calc(50vh - 9.5vw);
   left: 44vw;
@@ -215,7 +211,6 @@ video {
   margin: 0;
   padding: 0;
   font-size: large;
-  /* font-weight: bold; */
 }
 
 .pad-top {

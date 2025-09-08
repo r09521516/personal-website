@@ -96,11 +96,11 @@ const light = document.getElementById("check_light");
 const body = document.querySelector("body");
 light.addEventListener("change", (e) => {
     if (e.target.checked) {
-        body.style.backgroundImage = `url(/img/bg_room_dark.png)`;
+        body.style.backgroundImage = `url("./img/bg_room_dark.png")`;
         date.style.color = `#716552`;
         flower.style.opacity = `0.5`;
     } else {
-        body.style.backgroundImage = `url(/img/bg_room.png)`;
+        body.style.backgroundImage = `url("./img/bg_room.png")`;
         date.style.color = `#9e9280`;
         flower.style.opacity = `1`;
     }
