@@ -30,7 +30,7 @@ body {
   font-weight: 400;
   font-style: normal;
   cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur272.cur), auto;
-  background-image: url("/img/bg_room.png");
+  background-image: url("img/bg_room.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -119,12 +119,12 @@ video {
 
 .lf-ver {
   display: flex;
-  background-image: url("/img/monster_left.png");
+  background-image: url("img/monster_left.png");
 }
 
 .rt-ver {
   display: none;
-  background-image: url("/img/monster_right.png");
+  background-image: url("img/monster_right.png");
 }
 
 .monster-container:hover {
@@ -138,7 +138,7 @@ video {
   padding: 0;
   width: 50vh;
   height: 80vh;
-  background-image: url("/img/bg_small.PNG");
+  background-image: url("img/bg_small.PNG");
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: 55% 55%;
@@ -315,7 +315,7 @@ label > div:hover {
   padding: 0;
   width: 100vh;
   height: 80vh;
-  background-image: url("/img/bg_large.PNG");
+  background-image: url("img/bg_large.PNG");
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: 55% 55%;
@@ -454,7 +454,7 @@ label > div:hover {
   top: 5vw;
   left: -1.5vw;
   transform: scaleX(1.1);
-  background-image: url("/img/word_date.png");
+  background-image: url("img/word_date.png");
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: center;
@@ -477,7 +477,7 @@ label > div:hover {
   top: calc(50vh - 18vw);
   left: 11.5vw;
   display: none;
-  background-image: url("/img/flower.png");
+  background-image: url("img/flower.png");
   background-repeat: no-repeat;
   background-attachment: local;
   background-position: center;
@@ -624,7 +624,7 @@ label > div:hover {
     top: 6.7vh;
     left: -2vh;
     transform: scaleX(1.1);
-    background-image: url("/img/word_date.png");
+    background-image: url("img/word_date.png");
     background-repeat: no-repeat;
     background-attachment: local;
     background-position: center;
@@ -642,7 +642,7 @@ label > div:hover {
     top: 26vh;
     left: calc(50vw - 52vh);
     display: none;
-    background-image: url("/img/flower.png");
+    background-image: url("img/flower.png");
     background-repeat: no-repeat;
     background-attachment: local;
     background-position: center;
