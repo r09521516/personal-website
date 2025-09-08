@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="test.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <img src="/img/title.png" alt="Yi Lei Hsu" />
+    </header>
+    <div id="guide">
+      <img src="/img/guide.png" alt="GUIDE" />
+    </div>
+    <div class="video-container">
+      <video id="intro_video" autoplay muted playsinline>
+        <source src="/img/intro.MP4" type="video/mp4">
+      </video>
+    </div>
+    <div class="monster-container" id="monster">
+      <div class="monster lf-ver"></div>
+      <div class="monster rt-ver"></div>
+    </div>
+    <input type="checkbox" id="check_phone">
+    <label for="check_phone">
+      <div id="phone"></div>
+    </label>
+    <input type="checkbox" id="check_laptop">
+    <label for="check_laptop">
+      <div id="laptop"></div>
+    </label>
+    <input type="checkbox" id="check_light">
+    <label for="check_light">
+      <div id="light"></div>
+    </label>
+    <div class="calendar">
+      <p id="date"></p>
+      <div id="word_date"></div>
+    </div>
+    <div id="flower"></div>
+    <div class="page-s" id="page_about">
+      <div class="page-close" id="about_close"><i class="fas fa-times"></i></div>
+      <div class="about-container">
+        <p class="page-title">About</p>
+        <p class="contact-p first-p">Yi Lei Hsu</p>
+        <hr noshade="noshade" />
+        <p class="htxt">Education</p>
+        <hr noshade="noshade" />
+          <p>National Taiwan University</p>
+          <div class="pad-top">
+            <p>M.S.</p>
+          </div>
+          <p class="bw-txt">Division of Transportation Engineering,</p>
+          <p class="bw-txt">Department of Civil Engineering</p>
+          <div class="pad-top">
+            <p>B.S.</p>
+          </div>
+          <p class="bw-txt">Department of Civil Engineering</p>
+        <hr noshade="noshade" />
+        <p class="htxt">Technical Skills</p>
+        <hr noshade="noshade" />
+        <div>
+          <p>Programming</p>
+          <p class="bw-txt">JavaScript <span>|</span> TypeScript <span>|</span> Python <span>|</span> C++ <span>|</span> C#</p>
+        </div>
+        <div class="pad-top">
+          <p>Web Design</p>
+          <p class="bw-txt">HTML <span>|</span> CSS <span>|</span> SASS <span>|</span> jQuery</p>
+        </div>
+        <div class="pad-top">
+          <p>Environment & Frameworks</p>
+          <p class="bw-txt">Node.js <span>|</span> React</p>
+        </div>
+        <div class="pad-top">
+          <p>Version Control</p>
+          <p class="bw-txt">Git, GitHub</p>
+        </div>
+        <div class="pad-top">
+          <p>Design</p>
+          <p class="bw-txt">Figma <span>|</span> Photoshop <span>|</span> Illustrator <span>|</span> InDesign <span>|</span> Lightroom <span>|</span> AutoCAD <span>|</span> Unity</p>
+        </div>
+        <hr noshade="noshade" />
+        <p class="htxt">More</p>
+        <hr noshade="noshade" />
+        <a href="" target="_blank">
+          <i class="fas fa-file"></i> <i class="fas fa-angle-double-right"></i> File --- Resume.pdf<br />
+        </a>
+      </div>
+    </div>
+    <div class="page-l" id="page_project">
+      <div class="page-close large-close" id="project_close"><i class="fas fa-times"></i></div>
+      <div class="project-container">
+        <p class="page-title">Projects</p>
+        <div class="projects">
+          <div class="project-tile">
+            <a href="" target="_blank">
+              <img src="img/8-wordle.png" alt="project1">
+              <p class="img-title">Wordle</p>
+            </a>
+          </div>
+          <div class="project-tile">
+            <a href="" target="_blank">
+              <img src="img/7-todo.png" alt="project2">
+              <p class="img-title">To Do List</p>
+            </a>
+          </div>
+          <div class="project-tile">
+            <a href="https://codepen.io/juju142984/pen/dyaKNoe" target="_blank">
+              <img src="img/1-drum.png" alt="project3">
+              <p class="img-title">Drum Machine</p>
+            </a>
+          </div>
+          <div class="project-tile">
+            <a href="https://codepen.io/juju142984/pen/wvNENLj" target="_blank">
+              <img src="img/4-clock.png" alt="project4">
+              <p class="img-title">25+5 Clock</p>
+            </a>
+          </div>
+          <div class="project-tile">
+            <a href="https://codepen.io/juju142984/pen/eYxLLee" target="_blank">
+              <img src="img/3-previewer.png" alt="project5">
+              <p class="img-title">MarkDown Previewer</p>
+            </a>
+          </div>
+          <div class="project-tile">
+            <a href="https://codepen.io/juju142984/pen/OJdEKVy" target="_blank">
+              <img src="img/2-calculator.png" alt="project6">
+              <p class="img-title">JS Calculator</p>
+            </a>
+          </div>
+          <div class="project-tile">
+            <a href="https://codepen.io/juju142984/pen/gOqdPpN" target="_blank">
+              <img src="img/5-quote.png" alt="project7">
+              <p class="img-title">Random Quote Machine</p>
+            </a>
+          </div>
+          <div class="project-tile">
+            <a href="https://juju142984.wixsite.com/mysite" target="_blank">
+              <img src="img/6-art.png" alt="project8">
+              <p class="img-title">Art Works</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page-s" id="page_contact">
+      <div class="page-close" id="contact_close"><i class="fas fa-times"></i></div>
+      <div class="contact-container">
+        <p class="page-title">Contact</p>
+        <p class="contact-p first-p">Yi Lei Hsu</p>
+        <hr noshade="noshade" />
+        <a href="mailto:leihsu97@gmail.com" target="_blank">
+          <i class="fas fa-at"></i> Mail<br />
+          <p class="contact-p">leihsu97@gmail.com</p>
+        </a>
+        <hr noshade="noshade" />
+        <a href="https://github.com/r09521516" target="_blank">
+          <i class="fab fa-github"></i> GitHub<br />
+          <p class="contact-p">https://github.com/r09521516</p>
+        </a>
+        <hr noshade="noshade" />
+        <a href="https://www.linkedin.com/in/hsu-yilei/" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn<br />
+          <p class="contact-p">https://www.linkedin.com/in/hsu-yilei/</p>
+        </a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
