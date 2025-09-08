@@ -120,7 +120,7 @@ video {
 
 .rt-ver {
   display: none;
-  background-image: url("./img/monster_right.png");
+  background-image: url("./img/monster_right.PNG");
 }
 
 .monster-container:hover {
